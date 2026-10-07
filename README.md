@@ -4,6 +4,8 @@
 
 <p align="center">
   <a href="https://ronitkatikaneni.vercel.app"><b>Portfolio</b></a> ·
+  <a href="https://github.com/RonKat2008/oski"><b>Oski</b></a> ·
+  <a href="https://github.com/RonKat2008/HackGT13"><b>PreSearch</b></a> ·
   <a href="https://ieeexplore.ieee.org/document/11315089"><b>IEEE RTSS 2025 paper</b></a> ·
   <a href="https://github.com/RonKat2008/Mantis-Prime-Agent"><b>PR review agent</b></a> ·
   <a href="https://github.com/RonKat2008/kidneyplate"><b>KidneyPlate</b></a> ·
@@ -21,6 +23,35 @@ managing chronic kidney disease.
 <br>
 
 <table>
+<tr><td width="50%" valign="top">
+
+### 🐻 [Oski](https://github.com/RonKat2008/oski)
+
+**Build Personal Agents Hack**, San Francisco, October 2026: a personal agent for Berkeley
+students, built in one day.
+
+It watches bCourses, Gradescope, Ed, course sites, and email, then merges every deadline into one
+timeline and flags when a due date moves or exam scope changes. A Mastra agent syncs every
+15 minutes. A managed browser gets through CalNet + Duo to read Gradescope. Haiku extracts and
+classifies, Opus writes the cited study guides, and nothing is sent from your Gmail until you approve it.
+
+`TypeScript` · `Next.js` · `Mastra` · `Kernel` · `Neon` · `Fly.io`
+
+</td><td width="50%" valign="top">
+
+### 🔎 [PreSearch](https://github.com/RonKat2008/HackGT13) · HackGT 13
+
+A review desk for conference chairs. Paste arXiv ids or upload a PDF, and an eleven-stage pipeline
+(parse through stamp) finds problems you can check yourself: citations that Crossref, OpenAlex, and
+Semantic Scholar can't resolve, abstract numbers that never show up in the results, and table
+claims that don't hold when it reruns them against the public dataset.
+
+Every finding is tied to a passage, and clicking it opens the PDF on that sentence. A second judge
+only runs when the first is less than 90% confident.
+
+`Next.js` · `FastAPI` · `xAI Grok` · `Supabase` · `pdf.js`
+
+</td></tr>
 <tr><td width="50%" valign="top">
 
 ### 🛰️ [Prime Agent](https://github.com/RonKat2008/Mantis-Prime-Agent)
